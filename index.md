@@ -7,4 +7,4 @@ title: Real NHS experiences of trans people
 
 Here are some real-life experiences.
 
-Want to contribute your own experience? 
+[Want to contribute your own experience](/contact)? 

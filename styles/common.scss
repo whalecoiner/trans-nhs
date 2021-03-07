@@ -106,12 +106,12 @@ label {
   display: flex;
   list-style-type: none;
   padding: 0;
-  
+  margin-bottom: 1rem;
 }
 
 .nav-item-link {
   padding: 5px;
-  color: white;
-  background-color: darkblue;
+  color: #333;
+  background-color: #d6cdff;
   margin-right: 10px;
 }
