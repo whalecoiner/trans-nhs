@@ -10,12 +10,8 @@
   </head>
   <body>
     <div class="container">
-          <nav>
-        <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/contact">Submit your experience</a></li>
-        </ul>
-      </nav>  
+      {% include 'nav.liquid' %}
+
       {{ content }}
 
       <form name="contact" method="POST" netlify-honeypot="hpot" data-netlify="true">

@@ -9,6 +9,10 @@ module.exports = eleventyConfig => {
     breaks: true,
     linkify: false
   };
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: true,
+    strict_filters: true
+  });
   eleventyConfig.setLibrary("md", markdownIt(options));
 
   return {

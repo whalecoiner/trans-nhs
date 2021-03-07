@@ -101,3 +101,17 @@ label {
   white-space: nowrap;
   width: 1px;
 }
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.nav-item-link {
+  padding: 5px;
+  color: white;
+  background-color: darkblue;
+  margin-right: 10px;
+}

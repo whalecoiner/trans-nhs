@@ -10,14 +10,10 @@
   </head>
   <body>
     <div class="container">
-      <nav>
-        <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/contact">Submit your experience</a></li>
-        </ul>
-      </nav>  
+      {% include 'nav.liquid' %}
+
       {{ content }}
-      <h2 class="category">Posts</h2>
+      <h2 class="category">Experiences</h2>
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">
