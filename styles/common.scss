@@ -66,8 +66,16 @@ a {
 .button {
   padding: 10px;
   font-weight: bold;
-  background-color: white;
-  color: black;
+  background-color: #d6cdff;
+  color: #333;
+  border: 2px solid #d6cdff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #333;
 }
 
 label {
@@ -114,4 +122,10 @@ label {
   color: #333;
   background-color: #d6cdff;
   margin-right: 10px;
+}
+
+.nav-item-link:hover {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
 }
