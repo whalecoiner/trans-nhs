@@ -84,19 +84,23 @@ label {
 }
 
 .textfield {
-  border: 2px solid black;
+  border: 2px solid #6a6191;
   background-color: white;
-  padding: 5px;
+  padding: 15px;
   width: 20rem;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
 .textarea {
-  border: 2px solid black;
+  border: 2px solid #6a6191;
   background-color: white;
-  padding: 5px;
+  padding: 15px;
   width: 30rem;
   min-height: 10rem;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace
 }
 
 
