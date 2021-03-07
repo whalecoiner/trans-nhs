@@ -18,7 +18,10 @@
       </nav>  
       {{ content }}
 
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" netlify-honeypot="hpot" data-netlify="true">
+        <div class="visually-hidden">
+          <label>Hey hey. If you're a person the please don't fill this field out. It's there to identify those naughty naughty robots:</label> <input name="hpot" />
+        </div>
         <div>
           <label for="age">Your age:</label>
           <input type="text" name="age" class="textfield" />
