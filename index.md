@@ -1,8 +1,10 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: Real NHS experiences of trans people
 ---
 
-# Welcome to Hollywoo
+# The NHS isn't a friendly place for trans people
 
-Hello. I am BoJack. Horseman, obviously
+Here are some real-life experiences.
+
+Want to contribute your own experience? 

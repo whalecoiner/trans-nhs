@@ -61,3 +61,32 @@ a {
     margin: 32px 14%;
   }
 }
+
+
+.button {
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.textfield {
+  border: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  width: 20rem;
+}
+
+
+.textarea {
+  border: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  width: 30rem;
+  min-height: 10rem;
+}
